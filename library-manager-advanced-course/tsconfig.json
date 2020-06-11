@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "js",
+        "target": "ES2015",
+        "sourceMap": false,
+        "watch": true,
+        "experimentalDecorators": true
+    },
+    // If files present the exclude will be ignored.
+    // Main .d.ts can be added in files to get rid of triple slash in files we import it
+    "files": [
+      "app.ts"  
+    ]
+}
